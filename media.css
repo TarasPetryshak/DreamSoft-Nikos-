@@ -33,6 +33,12 @@
     .clients {
         margin-top: 10%;
     }
+    .offer {
+        width: 90%;
+    }
+    .offer__block_links {
+        margin-top: 0;
+    }
 }
 
 @media screen and (max-width: 1200px) {
@@ -78,6 +84,15 @@
     .team__block {
         width:48%;
         height: 48%;
+    }
+    .response {
+        height: 50vh;
+    }
+    .response__block::after {
+        bottom: -5%;
+    }
+    .main-blog  {
+        width: 85%;
     }
 }
 
@@ -238,7 +253,51 @@
     .team {
         width: 98%;
     }
+    .offer {
+        width: 80%;
+        height: 110vh;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: space-between;
+    }
+    .offer__block {
+        width: 100%;
+        height: 49%;
+    }
+    .offer__block_header{
+        width: 100%; 
+    }
+    .counter {
+        width: 100%;
+    }
+    .offer__block_text h3 {
+        width: 100%;
+    }         
+    .offer__block_text p{
+        width: 100%;
+    }
+    .response {
+        width: 95%;
+        height: 90vh;
+        margin-top: 15%;
+    }
+    .response__wrapper {
+        flex-wrap: wrap;
+        align-content: space-between;
+    }
+    .response__block {
+        width: 48%;
+        height: 46%;
+    }
+    .main-blog {
+        height: 120vh;
+    }
+    .blog__block {
+        margin-bottom: 70px;
+        width: 49%;
+    }
 }
+
 
 @media screen and (max-width: 768px) {
     .header-wrapper {
@@ -375,6 +434,40 @@
         width: 100%;
         height: 24%;
     }
+    .offer {
+        width: 90%;
+        justify-content: center;
+    }
+    .offer__block {
+        width: 100%;
+        height: 49%;
+    }
+    .offer__block:last-child {
+        justify-content: space-between;
+    }
+    .response {
+        width: 98%;
+        height: 110vh;
+        /*margin-top: 15%;*/
+    }
+    .response__block {
+        width: 100%;
+        height: 29%;
+    }
+    .response__block_text {
+        width: 100%; 
+    }
+    .response__block::after {
+        bottom: 7%;
+    }
+    .main-blog {
+        height: 160vh;
+        margin-top: 20%;
+    }
+    .blog__block {
+        margin-bottom: 70px;
+        width: 99%;
+    }
 }
 
 @media screen and (max-width: 544px) {
@@ -464,5 +557,8 @@
     }
     .team {
         width: 90%;
+    }
+    .offer__block:first-child {
+
     }
 }
