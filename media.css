@@ -1,0 +1,468 @@
+@media screen and (max-width: 1400px) {
+    .header {
+        width: 100%;
+    }
+    .about-company {
+        height: 90vh;
+    }
+    .about-company__header {
+        font-size: 2.3rem;
+    }
+    .about-company__text:first-child {
+        background-image: url(images/slider-1-slide-1-1770x742.jpg);
+        background-position: left;
+    }
+    .about-company__text:nth-child(2) {
+        background-image: url(images/slider-1-slide-2-1770x742.jpg);
+        background-position: bottom;
+    }
+    .about-company__text:last-child {
+        background-image: url(images/slider-1-slide-3-1770x742.jpg);
+    }
+    .services__content {
+        width: 48%;
+        height: 48%;
+    }
+    .services__content:first-child .services__content_header {
+        margin-bottom: 20%;
+        margin-top: -8%;
+    }
+    .projects__links__wrapper {
+        width: 75%;
+    }
+    .clients {
+        margin-top: 10%;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .logo__image {
+        width: 65%;
+    }
+    div.pages-container {
+        height: 50vh;
+    }
+    .pages-item {
+        padding-right: 5%;
+    }
+    .pages-list a {
+        font-size: 0.9rem;
+    }
+    .header-menu {
+        width: 70%;
+    }
+    .about-company__header {
+        height: 30%;
+    }
+    .projects__text {
+        width: 50%;
+    }
+    .projects__links li::after {
+        left: 110%;
+    }
+    .projects__links__wrapper {
+        width: 90%;
+    }
+    .projects__links li::after {
+        right: -5vw;
+    }
+    .projects__wrapper {
+        width: 31.8%;
+        margin-bottom: 3vh;
+        position: relative;
+    }
+    .team {
+        width: 85%;
+        height: 150vh;
+    }
+    .team__block {
+        width:48%;
+        height: 48%;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .logo__image {
+        width: 65%;
+    }
+    div.pages-container {
+        height: 60vh;
+    }
+    .header-menu {
+        width: 80%;
+    }
+    .about-company {
+        flex-direction: column;
+        justify-content: unset;
+        height: unset;
+    }
+    .about-company__text {
+        width: 100%;
+        height: 80vh;
+        margin-bottom: 1px;
+    }
+    .about-company__header {
+        margin-top: 5%;
+        width: 80%;
+    }
+    .about-company__description {
+        width: 80%;
+    }
+    .about-company__text a {
+        width: 20%;
+    }
+    .about-company__text:first-child {
+        background-position: unset;
+    }
+    .about-company__text:nth-child(2) {
+        background-position: unset;
+    }
+    .about-company__text a {
+        height: 12%;
+    }
+    .services__article {
+        width: 100%;
+        height: 100%;
+        margin: 4% 0;
+    }
+    .services__container {
+        /* background: url(images/index-1-415x592.jpg) no-repeat;
+        background-position: center;
+        background-size: 30% auto; */
+        flex-direction: column;
+        justify-content: space-between;
+        height: 220vh;
+    }
+    .services__content {
+        width: 49%;
+        height: 49%;
+        /* background: rgba(255, 255, 255, 0.9); */
+        /* background: url(images/index-1-415x592.jpg) no-repeat;
+        background-position: center;
+        background-size: 30% auto; */
+    }
+    .services__content_link {
+        width: 40%;
+    }
+    .projects__links__wrapper {
+        position: relative;
+        height: 61px;
+    }
+    .projects__links_button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        width: 140px;
+        height: 50px;
+        border: 2px solid #000;
+        font-weight: 600;
+        letter-spacing: 0.07rem;
+    }
+    .projects__links_button i {
+        margin-left: 5%;
+        margin-bottom: 3%;
+    }
+    .projects__links_button:hover~.projects__links {
+        display: flex;
+        transform: scaleY(1);
+    }
+    .projects__links li::after {
+        display: none;
+    }
+    .projects__links {
+        height: 25vw;
+        width: 30vw;
+        transform: scaleY(0);
+        transform-origin: top;
+        transition: all 300ms;
+        flex-direction: column;
+        z-index: 2;
+        background: #fff;
+        position: absolute;
+        top: 60px;
+        left: 32%;
+        box-shadow: 1px 1px 5px 1px #f1ecec;
+        justify-content: center;
+    }
+    .projects__links li:hover {
+        background: #756aee;
+    }
+    .projects__links li {
+        width: 85%;
+        height: 16%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .projects__links li:hover>a {
+        color: #fff;
+        transition: unset;
+    }
+    .projects__links a:hover {
+        color: #fff;
+    }
+    .projects__wrapper {
+        width: 47.5%;
+        margin-bottom: 3vh;
+        position: relative;
+    }
+    .projects__hover {
+        width: 46%;
+        height: 12%;
+        transform: scale(1);
+        top: 88%;
+        left: 27%;
+        padding: 0;
+    }
+    .projects__hover-header {
+        height: 100%;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .projects__hover p {
+        display: none;
+    }
+    .clients {
+        width: 70%;
+        height: 70vh;
+        margin-top: 15%;
+        align-content: space-between;
+    }
+    .clients__block {
+        height: 30vh;
+        width: 46%;
+    }
+    .team {
+        width: 98%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .header-wrapper {
+        height: 20vh;
+    }
+    .header {
+        flex-direction: column;
+        justify-content: space-around;
+        padding: 0;
+    }
+    .header-menu {
+        height: 45%;
+        position: relative;
+    }
+    .menu-btn {
+        width: 1.8rem;
+        height: 2.5rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        opacity: 0;
+    }
+    .menu-btn:hover {
+        cursor: pointer;
+    }
+    .menu-icon {
+        display: block;
+        font-size: 1.3rem;
+        position: absolute;
+    }
+    .header-menu__list {
+        position: absolute;
+        width: 45%;
+        top: 50%;
+        height: 65vh;
+        transform: scaleY(0);
+        transform-origin: top;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        box-shadow: 0 0 3px 1px #dfdbdb;
+        transition: all 400ms;
+        background: rgb(255, 255, 255);
+    }
+    .menu-btn:checked~.header-menu__list {
+        transform: scaleY(1);
+    }
+    .header-menu__item {
+        width: 70%;
+        height: 9%;
+        padding-bottom: 0;
+        border-bottom: 2px dotted #dfdbdb;
+        align-items: center;
+    }
+    .header-menu__item:first-child {
+        padding-top: 4%;
+    }
+    .header-menu__item:last-child {
+        border: none;
+    }
+    li .header-menu__item_act {
+        margin-bottom: 5%;
+    }
+    #logo {
+        height: 45%;
+        width: 65%;
+        justify-content: center;
+        margin-top: 2%;
+        padding-left: 8%;
+        box-sizing: border-box;
+    }
+    .logo__image {
+        width: 80%;
+    }
+    .header-menu__item:hover {
+        cursor: pointer;
+        transform: scale(1.1);
+        opacity: 0.7;
+    }
+    .header-menu__item:hover a {
+        border: none;
+    }
+    .header-menu__list_hidden {
+        top: -10%;
+        left: 100%;
+    }
+    div.pages-container {
+        width: 20vw;
+        height: unset;
+        flex-direction: column;
+        top: -200%;
+        left: 100%;
+    }
+    .pages-wrapper {
+        flex-direction: column;
+    }
+    .about-company__text {
+        align-items: center;
+    }
+    .about-company__text:first-child .about-company__header {
+        margin-top: 14%;
+    }
+    .about-company__text a {
+        width: 25%;
+        height: 10%;
+    }
+    .projects__text {
+        width: 70%;
+    }
+    .projects__links {
+        height: 35vw;
+        width: 40vw;
+        left: 26%;
+    }
+    .clients {
+        width: 95%;
+        height: 80vh;
+        margin-top: 25%;
+        align-content: space-between;
+    }
+    .clients__block {
+        height: 35vh;
+        width: 46%;
+    }
+    .team {
+        width: 60%;
+        height: 340vh;
+    }
+    .team__wrapper {
+        align-content: space-between;
+    }
+    .team__block {
+        width: 100%;
+        height: 24%;
+    }
+}
+
+@media screen and (max-width: 544px) {
+    .logo__image {
+        width: 65%;
+    }
+    #logo {
+        padding-left: 8%;
+    }
+    .header-menu__list {
+        width: 98%;
+    }
+    .header-menu__item {
+        padding-top: 1%;
+        box-sizing: border-box;
+    }
+    .header-menu__list_hidden,
+    div.pages-container {
+        width: 90%;
+        top: 90%;
+        left: 0;
+    }
+    .about-company__text {
+        width: 100%;
+        height: 80vh;
+        margin-bottom: 1px;
+    }
+    .about-company__text:first-child .about-company__header {
+        margin-top: 20%;
+        /*35%*/
+        width: 85%;
+    }
+    .about-company__description {
+        width: 95%;
+        margin: 0 auto;
+    }
+    .about-company__text a {
+        width: 40%;
+        height: 10%
+    }
+    .services__container {
+        width: 90%;
+        height: 320vh;
+    }
+    .services__article {
+        justify-content: center;
+    }
+    .services__article:first-child {
+        height: 70%;
+    }
+    .services__content {
+        width: 80%;
+        height: 24%;
+    }
+    .services__content_header {
+        margin-bottom: 10%;
+        margin-top: 0%;
+    }
+    .services__content_text {
+        margin-top: 5%;
+    }
+    .services__content_icon {
+        margin-top: 15%;
+    }
+    .projects__text {
+        width: 90%;
+    }
+    .projects__links {
+        height: 50vw;
+        width: 60vw;
+        left: 15%;
+    }
+    .projects__wrapper {
+        width: 100%;
+        margin-bottom: 3vh;
+        position: relative;
+    }
+    .clients {
+        width: 70%;
+        height: 160vh;
+        margin-top: 40%;
+        align-content: space-between;
+    }
+    .clients__block {
+        height: 35vh;
+        width: 100%;
+    }
+    .team {
+        width: 90%;
+    }
+}
